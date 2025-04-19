@@ -1,4 +1,5 @@
 import discord
+import time
 intents = discord.Intents.default()
 
 intents.message_content = True
