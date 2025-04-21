@@ -24,7 +24,7 @@ async def on_message(message):
         await message.channel.send("Usando productos reutilizables como organizadores de escritorio macetas y trapos de limpieza, o\n")
         time.sleep(2)
         await message.channel.send("reducir el uso de plastico y gasto de agua")
-        await message.channel.send("Puedes usar tambien: "$medio ambiente"")
+        await message.channel.send("Puedes usar tambien: medio ambiente")
     elif message.content.startswith('$medio ambiente'):
         await message.channel.send("El medio ambiente es el entorno natural que rodea a los seres vivos\n")
         time.sleep(2)
